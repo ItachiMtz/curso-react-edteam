@@ -37,6 +37,7 @@ const CourseGrid = () => (
             cursos.map( c => 
             <Curso
                 key={c.id}
+                id={c.id}
                 title={c.titulo} 
                 image={c.image} 
                 price={c.price} 
